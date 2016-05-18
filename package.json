@@ -1,10 +1,14 @@
 {
   "name": "ldap-getpeople",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": ""Download the people reporting to the starting manager using the Active Directory attribute directReports. Recursively go down the tree to the node-getopt help demo.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+"repository": {
+    "type": "git",
+    "url": "git//github.com/divyavanmahajan/ldap-getpeople.git"
   },
   "author": "Divya van Mahajan <dvm@vanmahajan.com>",
   "license": "ISC",
