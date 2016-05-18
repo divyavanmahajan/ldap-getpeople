@@ -1,0 +1,25 @@
+{
+  "name": "ldap-getpeople",
+  "version": "1.0.0",
+  "description": "LDAP search",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Divya van Mahajan <dvm@vanmahajan.com>",
+  "license": "ISC",
+  "dependencies": {
+    "csv-stringify": "^1.0.4",
+    "ldapjs": "^1.0.0",
+    "node-getopt": "^0.2.3",
+    "queue": "^4.0.0",
+    "read": "^1.0.7"
+  },
+  "bin": "./index.js",
+  "devDependencies": {},
+  "keywords": [
+    "ldap",
+    "search",
+    "recursive"
+  ]
+}
