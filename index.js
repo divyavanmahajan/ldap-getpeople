@@ -23,7 +23,7 @@ function getOptions() {
     ]);              // create Getopt instance
     getopt.setHelp(
         "Usage: ldap-getpeople [OPTION]\n" +
-        "Download the people reporting to the starting manager using the Active Directory attribute directReports. Recursively go down the tree to the node-getopt help demo.\n" +
+        "Download the people reporting to the starting manager using the Active Directory attribute directReports. Recursively go down the tree to get each manager in the tree.\n" +
         "\n" +
         "[[OPTIONS]]\n" +
         "\n" +
