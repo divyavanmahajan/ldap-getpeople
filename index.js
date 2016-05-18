@@ -68,6 +68,7 @@ function getOptions() {
 function main() {
     
     var counter = 0;
+    console.time('Download time');
     
     console.error('Starting to scan the LDAP server.')
     var csvFileStream = fs.createWriteStream(opt['output'], {
@@ -104,7 +105,8 @@ function main() {
         q.start(function (err) {
             console.info(counter+ ' users downloaded.');
             stringifier.end();
-            jsonFileStream.end();
+    	    jsonFileStream.end();
+	    console.timeEnd('Download time');
             process.exit(0);
         });
     });
